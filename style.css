@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #0a1a3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  overflow: hidden;
+}
+
+/* LOGIN */
+.login-box {
+  text-align: center;
+  color: #7fbfff;
+}
+
+.login-box input {
+  background: transparent;
+  border: 1px solid #7fbfff;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  outline: none;
+}
+
+/* SECRET PAGE */
+.secret-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.terminal {
+  width: 80%;
+  max-width: 600px;
+  border: 2px solid red;
+  padding: 30px;
+  color: white;
+  box-shadow: 0 0 20px red;
+}
+
+#processText {
+  color: red;
+  margin-bottom: 20px;
+}
+
+#typingText {
+  white-space: pre-line;
+}
+
+/* FINAL SLIDE */
+
+.final-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  padding: 40px;
+}
+
+.final-content h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: red;
+  letter-spacing: 4px;
+}
+
+.final-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: auto;
+  white-space: pre-line;
+}
+
+#nextBtn {
+  margin-top: 20px;
+  background: black;
+  border: 1px solid red;
+  color: red;
+  padding: 8px 15px;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+#nextBtn:hover {
+  background: red;
+  color: black;
+}
